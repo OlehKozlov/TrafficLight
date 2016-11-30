@@ -1,0 +1,30 @@
+Tue Nov 29 20:40:56 2016: Red start
+Tue Nov 29 20:40:58 2016: Yellow start
+Tue Nov 29 20:40:58 2016: Pause
+Tue Nov 29 20:41:07 2016: Start
+Tue Nov 29 20:41:11 2016: Green start
+Tue Nov 29 20:41:14 2016: Red start
+Tue Nov 29 20:41:14 2016: Exit
+Wed Nov 30 12:39:12 2016: Red start
+Wed Nov 30 12:39:15 2016: Yellow start
+Wed Nov 30 12:39:20 2016: Green start
+Wed Nov 30 12:39:22 2016: Pause
+Wed Nov 30 12:39:24 2016: Start
+Wed Nov 30 12:39:25 2016: Red start
+Wed Nov 30 12:39:27 2016: Pause
+Wed Nov 30 12:39:29 2016: Exit
+Wed Nov 30 12:42:11 2016: Red start
+Wed Nov 30 12:42:14 2016: Yellow start
+Wed Nov 30 12:42:15 2016: Pause
+Wed Nov 30 12:42:19 2016: Start
+Wed Nov 30 12:42:22 2016: Green start
+Wed Nov 30 12:42:25 2016: Red start
+Wed Nov 30 12:42:27 2016: Yellow start
+Wed Nov 30 12:42:28 2016: Pause
+Wed Nov 30 12:42:29 2016: Exit
+Wed Nov 30 12:43:32 2016: Red start
+Wed Nov 30 12:43:33 2016: Pause
+Wed Nov 30 12:43:35 2016: Start
+Wed Nov 30 12:43:35 2016: Yellow start
+Wed Nov 30 12:43:39 2016: Green start
+Wed Nov 30 12:43:41 2016: Exit

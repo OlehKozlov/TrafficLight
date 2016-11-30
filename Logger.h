@@ -1,9 +1,10 @@
 #include <iostream>
 #include <fstream>
+#include <string>
 
 class Logger{
 public:
 	Logger();
 	virtual ~Logger();
-	virtual void log(char* ch);
+	virtual void log(std::string ch);
 };

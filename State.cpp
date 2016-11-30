@@ -7,7 +7,7 @@
 #include "Logger.h"
 
 
-State::State(): START('s'), PAUSE('p'), EXIT('e')
+State::State(): START('s'), PAUSE('p'), EXIT('e') 
 {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hConsole, 8);
@@ -75,7 +75,7 @@ void State::printCircle()
 		<< "  " << s << s << std::endl;
 }
 
-void State::log(char* ch)
+void State::log(std::string ch)
 {
 	Logger logger;
 	logger.log(ch);

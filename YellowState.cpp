@@ -13,7 +13,7 @@ YellowState::~YellowState()
 
 void YellowState::run()
 {	
-	log("Yellow light is active");
+	log("Yellow start");
 
 	const int CYCLE_COUNT = 4;
 	for (int i = 0; i < CYCLE_COUNT; i++){
@@ -26,7 +26,6 @@ void YellowState::run()
 
 State* YellowState::getNextState()
 {
-	log("Change to green light");
 	return new GreenState();
 }
 

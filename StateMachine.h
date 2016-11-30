@@ -9,7 +9,8 @@ public:
 	void run();	
 	void setCurrentState(State* state);	
 private:
-	State* currentState_;	
+	State* currentState_;
+
 };
 
 #endif

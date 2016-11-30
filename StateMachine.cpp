@@ -1,5 +1,5 @@
-#include <windows.h>
 #include "stdafx.h"
+#include <windows.h>
 #include "StateMachine.h"
 #include "GreenState.h"
 #include "RedState.h"
@@ -14,9 +14,10 @@ StateMachine::~StateMachine()
 	delete currentState_;
 }
 
+
 void StateMachine::run()
 {	
-	while (true){		
+	while (true){	
 		currentState_->run();
 		setCurrentState(currentState_->getNextState());
 	}
@@ -24,7 +25,7 @@ void StateMachine::run()
 
 void StateMachine::setCurrentState(State* state)
 {	
-	delete currentState_;
+	delete currentState_;	
 	currentState_ = state;
 }
 

@@ -14,14 +14,14 @@ GreenState::~GreenState()
 
 void GreenState::run()
 {
-	log("Green light is active");
+	log("Green start");
+	
 	print();
 	timer(TIME);
 }
 
 State* GreenState::getNextState()
 {	
-	log("Change to red light");
 	return new RedState();
 }
 
